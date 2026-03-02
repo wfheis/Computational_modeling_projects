@@ -1,6 +1,6 @@
 %{
 Will Heisler and Tait Kline
-HW3 Exercise 5 
+Computational simulation of neuron action potential 
 11/12/2025
 %}
 
@@ -296,4 +296,5 @@ end
     plot(time_points, V_predictions,'r.' , 'LineWidth',1.5)
     title('Neuron Membrane Potential Over Time')
     ylabel('Membrane potential (mV)')
+
     xlabel('Time (ms)')
